@@ -1,2 +1,10 @@
-# test_framework
-Java + Selenium + TestNG framework for test automation
+## Requirements
+Java 1.8 or higher
+Maven 3.6.3 or higher
+
+## Execution
+Navigate to the root directory and and execute the following command in the terminal:
+```sh
+mvn -B -Dsuite_name=salesforce clean integration-test
+```
+
