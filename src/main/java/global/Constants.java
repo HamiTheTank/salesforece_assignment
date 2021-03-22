@@ -17,8 +17,6 @@ public class Constants {
 	public static final Integer implicitTimeout = 10;
 	public static final Integer pageloadTimeout  = 60;
 	public static Integer defaultTimeout = 10;
-	public static final String PassBoxXPATH = "";	
-	public static String SSOBoxXPATH = "";
 
 	//=====================================================================================================================
 	//======================================== LOCATORS ===================================================================
