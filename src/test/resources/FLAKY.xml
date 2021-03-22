@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="FLAKY TEST SUITE" parallel="none">
+
+	<suite-file path="my_path1.xml" />
+	<suite-file path="my_path2.xml" />
+	<suite-file path="my_path3.xml" />
+  
+</suite>

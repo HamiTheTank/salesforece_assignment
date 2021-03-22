@@ -1,0 +1,6 @@
+*.class
+*.gif
+target/
+test-output/
+*.prefs
+debug.log

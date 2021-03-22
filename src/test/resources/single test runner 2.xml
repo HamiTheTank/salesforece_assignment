@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<suite name="suite name" parallel="none">
+
+	<parameter name="environment" value="qa" />
+	<parameter name="remote-execution" value="false" />
+	<parameter name="sso" value="SSO" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="headless" value="true" />
+	<parameter name="incognito" value="true" />
+	<parameter name="teardown" value="true" />
+	
+
+	<test name="test name" preserve-order="true" >
+	  <classes>
+
+	    <class name="class name">
+
+	    	<methods>				 
+ 
+	    		<include name="method1"/>
+	    		<include name="method2"/>
+	    		<include name="method3"/>
+	    		 
+	     	</methods>
+	     	
+	     </class>
+	           
+	   </classes>
+	</test>
+	
+  
+</suite>
